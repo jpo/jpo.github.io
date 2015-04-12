@@ -1,0 +1,47 @@
+# Site wide configuration
+
+title:            Josh O'Rourke
+locale:           en_US
+url:
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Josh O'Rourke
+  avatar: bio-photo.jpg
+  bio: "Co-Founder and Co-Owner of <a href='http://saoirsemedia.com'>Saoirse Media</a>. Ruby and .Net aficionado. Lover of books, fishing, and the great outdoors."  
+  email: joshorourke@me.com
+  github: jpo
+  linkedin: joshorourke
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+
+# Page Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      tags: []
+      image:
+        feature: fly-fishing-sm.jpg
