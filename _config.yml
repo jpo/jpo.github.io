@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title:            Josh O'Rourke
+title:            "Josh O'Rourke"
 locale:           en_US
 url:
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   date
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -25,7 +25,7 @@ kramdown:
 
 # Site owner
 owner:
-  name: Josh O'Rourke
+  name: "Josh O'Rourke"
   avatar: bio-photo.jpg
   bio: "Co-Founder and Co-Owner of <a href='http://saoirsemedia.com'>Saoirse Media</a>. Ruby and .Net aficionado. Lover of books, fishing, and the great outdoors."  
   email: joshorourke@me.com
