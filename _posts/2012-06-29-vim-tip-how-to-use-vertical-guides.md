@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Vim Tip: How to Use Vertical Guides"
+categories: [vim]
+tags: [vim]
 ---
 
 Vertical guides are a feature of most modern text editors that are useful when aligning text. Programmers typically use these to ensure that their code is indented properly or doesn’t exceed a certain line length (typically 80 or 100 characters).

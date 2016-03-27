@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Vim Tip: Handling Long Lines of Text"
+categories: [vim]
+tags: [vim]
 ---
 
 When you’re using Vim to read log files or write blog posts, one problem that you may come up against is wrapping long lines of text. Vim, being the powerful editor that it is, can handle this in multiple ways. Today, I’d like to talk about two of those options. One changes the way that text is displayed in the buffer. The other changes the way the text is formatted in the file.

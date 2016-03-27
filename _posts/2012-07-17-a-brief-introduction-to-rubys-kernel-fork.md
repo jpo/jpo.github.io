@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "A Brief Introduction to Ruby's Kernel.fork"
+categories: [ruby]
+tags: [ruby]
 ---
 
 Recently, a coworker asked if I could help with manipulating some large CSV files. Each file contained approximately 1.2 million records and was over 200 megabytes in size. I’ve never worked with such large CSV files before, so I had no idea how long they would take to process.

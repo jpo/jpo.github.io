@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Vim Tip: Temporary Key Mappings"
+categories: [vim]
+tags: [vim]
 ---
 
 One trick that I often use with Vim is temporarily mapping keys for tasks I need to perform in my current context.

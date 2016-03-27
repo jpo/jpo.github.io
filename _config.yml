@@ -1,49 +1,39 @@
-# Site wide configuration
+# Site settings
+title: "Josh O'Rourke"
+description: "Co-founder of Saoirse Media and Escape Plan. Program Lead of Solution Architecture at King's Daughters Health System."
+url: 'http://joshorourke.com'
+baseurl: '/'
+google_analytics: 'UA-41848585-6'
+# disqus_shortname: 'your-disqus-name'
 
-title:            "Josh O'Rourke"
-locale:           en_US
-url:
-
-# Jekyll configuration
-
-permalink:   date
-markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-
-# Site owner
-owner:
+author:
   name: "Josh O'Rourke"
-  avatar: bio-photo.jpg
-  bio: "Co-Founder and Co-Owner of <a href='http://saoirsemedia.com'>Saoirse Media</a>. Ruby and .Net aficionado. Lover of books, fishing, and the great outdoors."  
-  email: joshorourke@me.com
-  github: jpo
-  linkedin: joshorourke
-  google:
-    analytics: "UA-41848585-6"
+  email: josh.public@me.com
+  github_username:  jpo
+  linkedin_username:  joshorourke
+  # facebook_username: joshgerdes
+  # twitter_username: joshgerdes
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-
-
-# Page Defaults
 defaults:
   -
     scope:
-      path: ""
+      path: ''
+      type: 'posts'
     values:
-      tags: []
-      image:
-        feature: fly-fishing-sm.jpg
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:month/:day/:title
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

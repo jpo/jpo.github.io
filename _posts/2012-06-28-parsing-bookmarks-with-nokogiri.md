@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Parsing Bookmarks With Nokogiri"
+categories: [ruby]
+tags: [ruby, nokogiri]
 ---
 
 I’ve been working on a feature for one of my side projects that requires parsing bookmarks files that have been exported from a web browser. Most browsers export bookmarks in the Netscape Bookmark File Format. This format is an HTML document where the bookmarks are organized according to a standard structure. Microsoft has some helpful documentation [MSDN][1].

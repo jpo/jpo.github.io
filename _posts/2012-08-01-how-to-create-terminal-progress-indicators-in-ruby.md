@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How to Create Terminal Progress Indicators in Ruby"
+categories: [ruby]
+tags: [ruby]
 ---
 
 When you’re developing a terminal application, it’s usually helpful to indicate the progress of a long running task. Over the years, I’ve done this in a number of ways. Most of them involve printing some kind of status message, such as “Processing file1.csv…” or “Processing 10 of 1,000,000…” etc.

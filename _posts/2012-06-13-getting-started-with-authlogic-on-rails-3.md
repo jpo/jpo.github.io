@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Getting Started With Authlogic on Rails 3
+categories: [rails]
+tags: [ruby, rails, authlogic]
 ---
 
 [Authlogic][1] is “a clean, simple, and unobtrusive ruby authentication solution”. I’ve used it successfully in several Rails projects. It’s easy to setup, it’s easy to test, it’s flexible, and it has decent documentation. There’s even an [example application][2].

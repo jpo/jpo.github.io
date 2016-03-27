@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Vim Tip: How to Display Whitespace Characters"
+categories: [vim]
+tags: [vim]
 ---
 
 One of the things that took me awhile to figure out when I started using Vim was how to display whitespace characters. Whitespace characters are characters that take up space in a document but are not visible to the user. Examples include spaces, tabs, and new-lines characters.
