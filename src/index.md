@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Josh O'Rourke"
 ---
 
 # Hi, I'm Josh
