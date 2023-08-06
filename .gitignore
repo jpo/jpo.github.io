@@ -1,6 +1,5 @@
-_site
-.sass-cache
-.jekyll-metadata
-*.sublime-project
-*.sublime-workspace
+node_modules
+npm-debug.*
+*.log
 .DS_Store
+public

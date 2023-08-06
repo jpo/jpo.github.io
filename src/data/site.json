@@ -1,0 +1,43 @@
+{
+  "name": "Josh O'Rourke",
+  "description": "Personal Website",
+  "url": "http://joshorourke.com",
+  "author": {
+    "name": "Josh O'Rourke",
+    "email": "dingier_baton.0p@icloud.com",
+    "twitterHandle": "JoshML"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Posts",
+      "url": "/posts",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "GitHub",
+      "url": "https://github.com/jpo",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/JoshML",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": true
+}
